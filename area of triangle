@@ -1,0 +1,22 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+    int area, x, a, b, c, s,d;
+    
+    cout<<"first side of the triangle: ";
+    cin>>a;
+    cout<<"second side of the triangle: ";
+    cin>>b;
+    cout<<"third side od the triangle: ";
+    cin>>c;
+   s=a+b+c/2;
+    d=sqrt(s*(s-a)*(s-b)*(s-c));
+    area=sqrt(d);
+    cout<<"area="<<area<<endl;
+    
+    
+    return 0;
+}
